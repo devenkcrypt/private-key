@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
-import { Star } from 'lucide-react';
+import { Star, X } from 'lucide-react';
 import { NightSky } from '@/components/effects/night-sky';
 
 export function StarSection() {
@@ -65,18 +65,34 @@ export function StarSection() {
           <AnimatePresence>
             {revealed && (
               <motion.div
-                initial={{ opacity: 0, scale: 0.8, y: 20 }}
-                animate={{ opacity: 1, scale: 1, y: 0 }}
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
                 exit={{ opacity: 0 }}
-                transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
-                className="glass-dark absolute bottom-[16%] left-1/2 w-[88%] max-w-sm -translate-x-1/2 rounded-3xl px-7 py-8 text-center"
+                className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 p-4 backdrop-blur-sm"
+                onClick={() => setRevealed(false)}
               >
-                <Star className="mx-auto mb-3 h-6 w-6 fill-amber-200 text-amber-200" />
-                <p className="font-hand text-2xl leading-relaxed text-white">
-                  &ldquo;No matter how dark life becomes,
-                  <br />
-                  I&apos;ll always search for your light.&rdquo;
-                </p>
+                <motion.div
+                  initial={{ opacity: 0, scale: 0.8, y: 20 }}
+                  animate={{ opacity: 1, scale: 1, y: 0 }}
+                  exit={{ opacity: 0 }}
+                  transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
+                  className="glass-dark relative w-[90%] max-w-sm rounded-3xl px-7 py-8 text-center shadow-[0_20px_50px_rgba(255,210,120,0.15)]"
+                  onClick={(e) => e.stopPropagation()}
+                >
+                  <button
+                    onClick={() => setRevealed(false)}
+                    className="absolute right-4 top-4 text-white/50 hover:text-white transition"
+                    aria-label="Close message"
+                  >
+                    <X className="h-5 w-5" />
+                  </button>
+                  <Star className="mx-auto mb-3 h-6 w-6 fill-amber-200 text-amber-200" />
+                  <p className="font-hand text-2xl leading-relaxed text-white">
+                    &ldquo;No matter how dark life becomes,
+                    <br />
+                    I&apos;ll always search for your light.&rdquo;
+                  </p>
+                </motion.div>
               </motion.div>
             )}
           </AnimatePresence>
