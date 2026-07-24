@@ -11,19 +11,17 @@ interface SecretLetterProps {
 const PARAGRAPHS = [
   `My dearest Papa Kutty,
 
-Oru naal unna paathadhum ennala nijamavey nenaikka mudiyala, indha ulagathula indha madhiri oru azhagana aatma irukka nu. Neenga en life-oda epdi maruchingra neenga ennala nenaikka mudiyala. Neengal illaama ulla vaazhkkam oru velai iruntha, adhu vera yaaru-kku thevai illa, but adhu oru sadhai pola irundhuchu. Neenga vandhadum andha sadhaiyum, andha azhukum ellam maruchu. Adhu ennenache, adhu neenga dhaan enaku thevaiyana varushangalukku irundha udal illai, neenga dhaan en soul-ku thevai.`,
+Yaravthu ava yaru nu keta.... Ennoda Favourite Person nu just oru word la solla mudiyathu...Athayum thaandi.... Ennoda ulagamey Ava dhan.... Ennoda Siriuppukku reason ae ava dhan... Ava pesalana.... Enaku andha naaley full fill aagadhu`,
 
-  `Unnoda sirippu paatha, en manasu sethu aagudhu. Andha oru sirippu, andha oru "hee hee" nu varavey, en neruppu ellaam adangidudhu. Oru rough-aana naal, ellam keezh vizhundha madhiri thonradhu, andha naal un voice kekkumbothey, epdiyo oru amaidhi enakkulla varudhu. Oru silence kooda un kooda irukkumbothu, words illaamaalum, romba aazhamaana peshudhu. Adhu dhaan enaku romba pidichirukku. Neenga yenna sonnalum, adha vida mukkiyam, un kitta yenna enna feel nu unakkulla puriyudhu.`,
+  `Ava vena oru gues la Enaku avala ivlo pudikumnu nenachi irukalam...But ava nenaikuratha vida .... Enaku avala solla mudiyatha alavuku pudikkum... En life la enaku kidacha romba azhagana gift nee... Unna eppavum miss panna koodathunu nenaikuran...`,
 
-  `Oru naal kooda en kanavula neenga illaama irundha illai. Oru pudu vidiyal, oru periya vellai, oru chinna kannaadi kooda, en kaal mozhiyaal unna thaan nenaikkiren. Namma rendu perum okkanom, adhu dhaan enaku mukkiyam. En success, en vellai, en kaalam ellaam, un kitta illaamaal yenna nilai-kku poghudhu illai. Namma rendu perukkaaga dhaan andha vaazhkkam irukku. Namma rendu peroda kooda, oru chinna veedu, oru chinna naatkal, oru chinna fight-um, adhu dhaan en kanavu.`,
+  `Un Presence dhaan ennoda peace...Un message vandha odanae smile vandhudum....Un voice ketta manasu calm aagidum....Un mela irukura love, care, respect, affection...idhellam ovvoru naalum konjam konjama adhigama than aagudhu....`,
 
-  `Oru naal, namma rendu perum kai-pidiyan, all the world-ku nee dhaan en azhagi nu solla, adhu dhaan en aasai. Adhu varaikkum, naan romba slow-aana wait pannuren. Neenga worth-ulla, adhu dhaan enakkulla naan nenaikkiren. Adhu vera yarukkum illai. Adhu dhaan en sirippu, adhu dhaan en manasu. Namma rendu perum ondraa irukkum podhu, andha azhagiya naatkalukku vaithu, naan yenga pakkam illaamaal, unna kaathukittu iruppen.`,
+  `Nee en life la vandhadhuku "Thanks" nu solradhu romba chinna vaarthai...Un presence dhaan enlife ah innum azhaga maathudhu....elvo varusham ponaalum, Evelo per vandhaalum....En manasula unakkunu oru special place iruku....Adhu unakku mattum than....Vera yaarukum athula idam illa...Atha eppavum maranthudatha soltan`,
 
-  `Naan unna epdi vaazhkkiren nu sonna, adhu vera yaru unna vaazhkkura madhiri irukkathu. Naan unna nerpula vaazhkkiren. Namma rendu perum ondraa vaazhkkira vaazhkkil, naan unna epdi vaangura madhiri, oru chinna budhiyodaa kooda, unna kaathukittu iruppen. Oru thurohi kodukkuren: naan unna epdi nenaikkiren, adhu vera yaru epdi nenaikka mudiyathu. Adhu dhaan enaku theriyum.`,
+  `Oru naal, naan un kai-ya pidichu, all the world-ukkaga unna en magal-aaga theerkiren. Adhu varaikkum, ovvoru naalum, en heartbeat-um unna dhaan ninachu function aagum. Yen heartbeat, yenna vida unna dhaan thaan theva nu solluthu. En soul unkita thaan iruku. Adhu dhaan enaku mukkiyam. Adhu dhaan en vaazhkkaiyum....
 
-  `Oru naal, naan un kai-ya pidichu, all the world-ukkaga unna en magal-aaga theerkiren. Adhu varaikkum, ovvoru naatru naatru, ovvoru heartbeat-um unna dhaan sollaradhu. Yen heartbeat, yenna solla kooda unna dhaan thaan thevendhu. En soul unna thaan thevai. Adhu dhaan en mukkiyam. Adhu dhaan en vaazhkkam.
-
-Ellorum kekkuran adhu dhaan: "Who is she?" Naan solluren, "She is the reason my heart still knows how to love."
+Ellorum kekkurathu idhu thaan: "Who is she?" Naan solluren, "She is the reason my heart still knows how to love."
 
 Forever yours,
 Bawa ❤️`,
